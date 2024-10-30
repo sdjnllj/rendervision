@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RenderVision Studio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        /* 临时样式，用于演示导航栏的粘性效果 */
+        nav {
+            position: sticky;
+            top: 0;
+            background-color: #fff;
+            padding: 10px 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <!-- 页面头部 -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- 首页展示区域 -->
+    <section id="home">
+        <h1>Welcome to RenderVision Studio</h1>
+        <p>We bring your architectural visions to life with high-quality rendering services.</p>
+    </section>
+
+    <!-- 其他部分的占位符 -->
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <img src="images/project1.jpg" alt="Residential Rendering">
+                <div class="portfolio-info">
+                    <h3>Project 1: Residential Rendering</h3>
+                    <p>Modern villa design visualization</p>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="images/project2.jpg" alt="Commercial Space">
+                <div class="portfolio-info">
+                    <h3>Project 2: Commercial Space</h3>
+                    <p>Shopping mall interior rendering</p>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="images/project3.jpg" alt="Urban Planning">
+                <div class="portfolio-info">
+                    <h3>Project 3: Urban Planning</h3>
+                    <p>City center development visualization</p>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="images/project4.jpg" alt="Interior Design">
+                <div class="portfolio-info">
+                    <h3>Project 4: Interior Design</h3>
+                    <p>Luxury apartment interior</p>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="images/project5.jpg" alt="Landscape Design">
+                <div class="portfolio-info">
+                    <h3>Project 5: Landscape Design</h3>
+                    <p>Public park visualization</p>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="images/project6.jpg" alt="Corporate Office">
+                <div class="portfolio-info">
+                    <h3>Project 6: Corporate Office</h3>
+                    <p>Modern office building design</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <h2>Services</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">
+                    <img src="images/office-building.png" alt="Architectural Icon">
+                </div>
+                <h3>3D Architectural Rendering</h3>
+                <p>High-quality rendering services for residential, commercial, and public buildings.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">
+                    <img src="images/interior-design.png" alt="Interior Design Icon">
+                </div>
+                <h3>Interior Design Visualization</h3>
+                <p>Detailed interior design visualizations to showcase space layouts.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">
+                    <img src="images/planing.png" alt="Landscape Icon">
+                </div>
+                <h3>Landscape Design Visualization</h3>
+                <p>Visualization for parks, gardens, and outdoor public spaces.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">
+                    <img src="images/urban-planning.png" alt="Urban Planning Icon">
+                </div>
+                <h3>Urban Planning and Development</h3>
+                <p>Visualizations for city center development and public area planning.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <div class="about-container">
+            <!-- 公司简介 -->
+            <div class="about-intro">
+                <div class="about-icon">
+                    <img src="images/ourstory.png" alt="Our Story Icon">
+                </div>
+                <h3>Our Story</h3>
+                <p>RenderVision Studio was founded in 2020 by a group of passionate architects and 3D artists. We believe in the power of visualization to transform architectural concepts into compelling visual stories.</p>
+            </div>
+
+            <!-- 设计理念 -->
+            <div class="about-vision">
+                <div class="about-icon">
+                    <img src="images/vision.png" alt="Vision Icon">
+                </div>
+                <h3>Our Vision</h3>
+                <p>We strive for excellence in every project, combining technical precision with artistic creativity. Our commitment to photorealistic quality and attention to detail sets us apart in the architectural visualization industry.</p>
+            </div>
+
+            <!-- 团队介绍 -->
+            <div class="about-team">
+                <div class="about-icon">
+                    <img src="images/team.png" alt="Team Icon">
+                </div>
+                <h3>Our Team</h3>
+                <p>Our diverse team consists of 15 talented professionals, including certified architects, 3D artists, and visualization specialists. Each team member brings unique expertise and creative perspective to our projects.</p>
+            </div>
+        </div>
+
+        <!-- 核心团队成员 -->
+        <div class="team-members">
+            <h3>Core Team</h3>
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="member-photo">
+                        <img src="images/person1.jpg" alt="Design Lead">
+                    </div>
+                    <h4>Sarah Zhang</h4>
+                    <p>Design Lead</p>
+                </div>
+                <div class="team-member">
+                    <div class="member-photo">
+                        <img src="images/person2.jpg" alt="Technical Lead">
+                    </div>
+                    <h4>Michael Leo</h4>
+                    <p>Technical Lead</p>
+                </div>
+                <div class="team-member">
+                    <div class="member-photo">
+                        <img src="images/person3.jpg" alt="Art Director">
+                    </div>
+                    <h4>Emma Wilson</h4>
+                    <p>Art Director</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-container">
+            <!-- 联系信息 -->
+            <div class="contact-info">
+                <h3>Get in Touch</h3>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>sdjnllj@gmail.com</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone-alt"></i>
+                    <p>+1 (555) 123-4567</p>
+                </div>
+                
+                <!-- 社交媒体链接 -->
+                <div class="social-links">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="https://wa.me/6283167831021" target="_blank" class="social-icon">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>WhatsApp</span>
+                        </a>
+                        <a href="https://facebook.com/rendervision" target="_blank" class="social-icon">
+                            <i class="fab fa-facebook-messenger"></i>
+                            <span>Facebook</span>
+                        </a>
+                        <a href="https://linkedin.com/company/rendervision" target="_blank" class="social-icon">
+                            <i class="fab fa-linkedin"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 联系表单 -->
+            <div class="contact-form">
+                <h3>Send Us a Message</h3>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="project">Project Description</label>
+                        <textarea id="project" name="project" rows="5" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <!-- 快速导航链接 -->
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- 版权信息 -->
+        <div class="footer-bottom">
+            <p>&copy; 2024 RenderVision Studio. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html> 
