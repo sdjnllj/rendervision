@@ -82,7 +82,7 @@ p {
 
 /* 首页展示区域样式 */
 #home {
-    background-image: url('images/hero-bg.png');
+    background-image: url('images/hero-bg.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
