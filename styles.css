@@ -625,13 +625,7 @@ p {
 }
 
 .footer-section h4::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -8px;
-    width: 50px;
-    height: 2px;
-    background-color: var(--hover-color);
+    display: none;
 }
 
 /* 联系信息样式 */
@@ -713,4 +707,8 @@ p {
 .portfolio-info p {
     margin-top: 0;
     line-height: 1.4;  /* 添加行高控制，使文字更紧凑 */
-} 
+}
+
+.no-underline::after {
+    display: none !important;
+}
